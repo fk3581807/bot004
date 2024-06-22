@@ -1,0 +1,21 @@
+{
+  "version": 2,
+      "src": "/bot.py",
+      "use": "package.json",
+      "config": {
+        "browserslist": "defaults"
+      }
+    }
+  "routes": [
+    {
+      "src": "/",
+      "dest": "bot.py"
+    },
+    {
+      "src": "/webhook",
+      "dest": "webhook.py"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
