@@ -2,8 +2,10 @@
   "name": "@vercel/build-utils/babel",
   "version": "1.0.0",
   "scripts": {
-    "build": [
-    ]
+    "build": {
+    "command": "npm run build"
+  }
+}
   },
   "devDependencies": {
     "babel-core": "^7.10.3",
