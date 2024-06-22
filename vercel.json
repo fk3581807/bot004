@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "bot.py",
-      "use": "bot.py",
+      "use": "package.json",
       "config": {
         "browserslist": "defaults"
       }
