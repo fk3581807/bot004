@@ -1,11 +1,14 @@
 {
   "version": 2,
-      "src": "/bot.py",
-      "use": "package.json",
+  "builds": [
+    {
+      "src": "bot.py",
+      "use": "@vercel/build-utils/babel",
       "config": {
         "browserslist": "defaults"
       }
     }
+  ],
   "routes": [
     {
       "src": "/",
@@ -19,3 +22,4 @@
   "env": {
     "NODE_ENV": "production"
   }
+}
